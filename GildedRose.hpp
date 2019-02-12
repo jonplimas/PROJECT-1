@@ -21,7 +21,8 @@ Item::Item(string new_name, int new_sellIn, int new_quality)
 class GildedRose {
 private:
     // Add something to hold at least 10 items
-
+    const int ARRAY_SIZE = 10;
+    GildedRoses_Array_[ARRAY_SIZE]; 
 public:
     GildedRose();
     ~GildedRose();
